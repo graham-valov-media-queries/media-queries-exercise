@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* screen sizes 400px and below */
+@media screen and (max-width: 400px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1em;
+    }
+    .alert-info {
+        background-color: #CCFFFF;
+        border: 1px solid #CCCCCC;
+        padding: 1em;
+        text-align: center;
+        width: 100%;
+        margin:auto;
+     /*   margin-left: 1em;*/
+    }
+    img{
+        width: 100%;
+    }
+}
