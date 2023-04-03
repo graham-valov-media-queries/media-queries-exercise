@@ -12,14 +12,16 @@
         margin: 1em;
     }
     .alert-info {
-        background-color: #CCFFFF;
+        background: #CCFFFF;
         border: 1px solid #CCCCCC;
-        padding: 1em;
+        /*padding: 1em;*/
         text-align: center;
+        display: inline-block;
         width: 100%;
-        margin:auto;
-     /*   margin-left: 1em;*/
+        padding: 1em 0 ;
     }
+
+
     img{
         width: 100%;
     }
