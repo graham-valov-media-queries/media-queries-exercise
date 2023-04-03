@@ -138,12 +138,17 @@ footer > p {
         color: blue;
     }
 
+    .header-img {
+        margin-top: 0;
+    }
+
     img {
         width: 100%;
         margin-bottom: 1.2em;
     }
 
     .main {
+        width: 100%;
         margin-bottom: 1em;
 
     }
@@ -154,6 +159,11 @@ footer > p {
 
     section.main > p {
         margin-bottom: 2em;
+    }
+
+    .sub-section {
+        width: 100%;
+        margin-bottom: 0;
     }
 
     section.sub-section > p {
