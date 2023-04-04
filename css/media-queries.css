@@ -148,8 +148,8 @@ svg.facebook-icon > path {
 }
 
 
-/* screen sizes 400px and below */
-@media screen and (max-width: 350px) {
+/* screen sizes 500px and below */
+@media screen and (max-width: 510px) {
     .hidden-on-desktop {
         display: inline-block;
     }
@@ -181,7 +181,7 @@ svg.facebook-icon > path {
         margin-bottom: .5em;
         text-align: center;
         letter-spacing: 1px;
-    width: 100%;
+        width: 100%;
 
     }
 
@@ -193,7 +193,7 @@ svg.facebook-icon > path {
     }
 
     .nav-links {
-        background: #62747f;
+        background: #76858f;
         border-radius: 0;
         padding: 0;
     }
