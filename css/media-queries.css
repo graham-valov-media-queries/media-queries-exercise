@@ -69,8 +69,40 @@ h2 {
     margin-bottom: 1em;
 }
 
+footer {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
 footer > p {
     font-size: 14px;
+}
+
+#social-media-links {
+    display: flex;
+    gap: 1em;
+}
+
+div#social-media-links > a {
+    text-decoration: none;
+}
+
+svg {
+    width: 24px;
+}
+
+svg.twitter-icon > path {
+    fill: #179CF0;
+}
+
+svg.instagram-icon > path {
+    fill: #D6244F;
+}
+
+svg.facebook-icon > path {
+    fill: #3A5590;
 }
 
 
@@ -175,6 +207,18 @@ footer > p {
     }
 
     footer > p {
-        font-size: 14px;
+        font-size: 10px;
     }
+
+
+    #social-media-links {
+        gap: .5em;
+    }
+
+    svg {
+        width: 18px;
+    }
+
+
+
 }
